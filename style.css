@@ -1,12 +1,17 @@
+/* IMPORTAÇÃO DA FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
 /* RESETE CSS */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-/* IMPORTAÇÃO DA FONTE */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 
 header{
     background-color: #2E948A;
@@ -40,4 +45,55 @@ header{
     line-height: 23px;
     text-transform: uppercase;
     color: #FDFDFD;
+}
+
+footer{
+    background-color: #2E948A;
+    height: 207px;
+    display: flex;
+    justify-content: center;  
+}
+
+footer .container-navbar{
+    width: 85%;
+}
+
+footer .navbar{
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer .itens{    
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+.container-button-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.button-footer{
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    background: #419488;
+    border-radius: 62px;
+    padding: 1em 2em;
+}
+
+.button-footer a{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 1.5em;
 }
