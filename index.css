@@ -1,6 +1,6 @@
 /* IMPORTAÇÃO DA FONTE */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Ubuntu:wght@300;700&display=swap');
 
 main{
     display: flex;
@@ -14,6 +14,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;    
+    flex-wrap: wrap;
 }
 
 .banner-itens{
@@ -73,6 +74,7 @@ main{
     gap: 40px;  
     align-items: center; 
     justify-content: space-around;    
+    flex-wrap: wrap;
 }
 
 .cards-cursos{
@@ -130,4 +132,105 @@ main{
     color: #FFFFFF;
 }
 
+/* Estlilização da seção dos comentarios */
 
+.comentarios-container{
+    margin: 110px;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;    
+}
+
+.cards-comentarios{
+    display: flex;
+    gap: 40px;
+}
+
+.texto-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.subtitulo-comentarios{
+    margin-bottom: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.cards-container .paragrafo{
+    width: 363px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.paragrafo-profile{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* Estlilização da seção dos comentarios */
+
+.conteudo-container{
+    background: #E5E5E5;
+}
+
+.conteudo{
+    margin: 110px;
+    display: flex;   
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.cards-conteudo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subtitulo-conteudo{
+    margin: 110px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+}
+
+.subtitulo-conteudo-texto{
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.paragrafo-conteudo{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 319px;
+    color: #000000;
+}
