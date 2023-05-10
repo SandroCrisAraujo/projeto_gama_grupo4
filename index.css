@@ -1,0 +1,133 @@
+/* IMPORTAÇÃO DA FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;    
+}
+
+/* Estlilização da seção do banner */
+
+.banner{
+    margin: 125px 0 65px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.banner-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    width: 488px;
+    color: #FF4081;
+}
+
+.banner-itens .paragrafo{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    width: 462px;
+    color: #555555;
+}
+
+.banner-itens button{
+
+    width: 268px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.banner-itens a{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+}
+
+/* Estlilização da seção dos cursos */
+
+.cursos{
+    background: #F7F7F7;
+}
+
+.cursos-container{
+    margin-top: 110px; 
+    margin-bottom: 110px;
+    display: flex;
+    gap: 40px;  
+    align-items: center; 
+    justify-content: space-around;    
+}
+
+.cards-cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cursos-container img{
+    height: 190px;
+    width: 200px;
+}
+
+.subtitulo-cursos{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.cards-cursos .paragrafo{
+    width: 293px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.cards-cursos button{
+    width: 233px;
+    height: 51px;
+    left: 1043px;
+    top: 1389px;
+    background: #FF4081;
+    border-radius: 62px;
+    border: none;
+}
+
+.cards-cursos a{
+    width: 216px;
+    height: 20.27px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
