@@ -234,3 +234,26 @@ main{
     width: 319px;
     color: #000000;
 }
+
+.button-conteudo-container{
+    display: flex;
+   justify-content: center;
+    margin-bottom: 55px; 
+}
+.button-conteudo{
+    width: 289px;
+    height: 51px;    
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+}
+
+.button-conteudo a{
+    width: 207px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FF4081;
+}
