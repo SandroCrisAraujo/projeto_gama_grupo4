@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+}
+.container{
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.formulario{
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+   
+
+}
+
+h1{
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    
+    
+    color: #FF4081;
+
+}
+input{
+    background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+Width:493px;
+Height:32px;
+padding: 5px;
+}
+.input-mensage{
+    height: 190px;
+    display: flex;
+align-content: flex-start;
+font-family: 'Nunito';
+font-style: normal;
+display: flex;
+top:183 px;
+padding: 5px;
+}
+.botao-container{
+    width: 108px;
+    
+}
+.botao{
+    background: #FF4081;
+    border: none;
+border-radius: 32px;
+color: #FFFFFF;
+padding: 5 px 10 px;
+width: 108px;
+ height: 32px;  
+}
+/* MENSAGEM */
+
+.mensagem{
+ /* MENSAGEM */
+
+
+position: absolute;
+left: 4.84%;
+right: 68.75%;
+top: 46.06%;
+bottom: 45.58%;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-transform: lowercase;
+
+color: #58555D;
+   
+}
