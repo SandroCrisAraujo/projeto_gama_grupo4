@@ -1,0 +1,156 @@
+:root {
+    --preto: #000000;
+    --rosa: #FF4081;
+    --verde:#2E948A;
+    --branco:#FFFFFF;
+
+}
+/* IMPORTAÇÃO DA FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;   
+    background: #F7F7F7; 
+}
+
+.legenda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*titulo*/
+.legenda .titulo{
+margin: 82px 0 0 82px;    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+/* identical to box height */
+
+color:  #FF4081
+}
+
+.legenda .paragrafo{
+
+margin:  0 82px;    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+color: #555555;
+}
+
+
+
+
+/* Estlilização da seção dos cursos */
+
+.cursos{
+    background: #F7F7F7;
+    
+}
+
+.cursos-container img{
+    margin-left: 112px;
+    height: 380px;
+    width: 381px;
+}
+
+.cursos-container{
+    margin-top: 110px; 
+    margin-bottom: 110px;
+    display: flex;
+    gap: 40px;  
+    align-items: center; 
+    justify-content: space-around;    
+    flex-wrap: wrap;
+}
+
+.cards-cursos{
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    gap: 30px;  
+    padding: 60px 0;  
+   
+}
+
+.cards-cursos:nth-child(2) {
+    border-top: 4px solid #C4C4C4;
+    border-bottom: 4px solid #C4C4C4;
+  }
+
+
+.subtitulo-cursos{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FF4081;
+    
+}
+
+.cards-cursos .paragrafo{
+   
+ width: 724px;
+height: 105px;
+
+    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.cards-cursos button{
+    
+    width: 233px;
+    height: 51px;
+    text-align: center;
+    background: #2E948A;
+    border-radius: 62px;
+    border: none;
+}
+
+.cards-cursos a{
+    width: 216px;
+    height: 20.27px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;    
+    gap: 50px;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+    margin: 0 auto;
+   
+}
+input, textarea{
+    padding: 10px;
+}
+
