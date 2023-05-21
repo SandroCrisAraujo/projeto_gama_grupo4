@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-
 <head>
 
-    <meta class="itens" charset="UTF-8">
-    <meta class="itens" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
+
+    <link rel="icon" type="image/png" sizes="16x16"  href="imagens/dindin-icon.svg">    
 
     <link rel="stylesheet" href="cursos.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
 
-    <script src="cursos.js"></script>
+    <script defer type="text/javascript" src="modal.js"></script>
 
-    <title>Educação Financeira é tudo de bom</title>
-
+    <title>Dindin | Cursos</title>
+    
 </head>
 
 <body>
@@ -24,7 +25,7 @@
 
         <nav class="container-navbar">
             
-            <img src="imagens/logo-header.png" alt="Logo">                   
+            <a href="index.html"><img src="imagens/logo-header.png" alt="Logo"></a>                   
             
             <ul class="navbar">
                 
@@ -40,68 +41,194 @@
 
     </header>
 
-<body>
-
-   
+<body>   
 
     <main class="main">
         
         <section class="legenda">
 
-        <h1 class="titulo">Cursos</h1>
+            <h1 class="titulo">Cursos</h1>
+            
+            <p class="paragrafo">Educação financeira é tudo</p>
         
-        <p class="paragrafo">Educação financeira é tudo</p>
-        
-    </section>
+        </section>
 
+        <section class="cursos">
 
+            <div class="cursos-container">
 
-    <section class="cursos">
+                <div class="cards-cursos">
 
-        <div class="cursos-container">
+                    <img src="imagens/ilustra-poupando.png" alt="ilustra-poupando">
 
-            <div class="cards-cursos">
+                    <div class="teste">
 
-                <img src="imagens/ilustra-investimento.png" alt="ilustra-investimento">
+                        <h3 class="subtitulo-cursos">Investimento para iniciantes</h3>
 
-                <div class="teste">
+                        <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        
+                        <button class="" id="myBtn"><a href="#">começar agora</a></button>                
 
-                <h3 class="subtitulo-cursos">Investimento para iniciantes</h3>
+                        <!-- O Modal -->
+                        <section id="myModal" class="modal">
+                
+                            <!-- Modal -->
+                            <div class="modal-content">
+                
+                                <span class="close">&times;</span>
+                                
+                                <div id="div-modal">                    
+                                    
+                                    <div class="img-wrap">
+                
+                                        <img src="imagens/ilustra-poupando.png"/>
+                
+                                    </div>
+                
+                                    <div class="texto">  
+                
+                                        <h2 class="subtitulo-modal">Investimento para iniciantes</h2>   
+                
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                
+                                        <p>1 - Aula introdutória</p>
+                
+                                        <p>2 - História sobre inventimento</p>
+                
+                                        <p>3 - Por onde começar</p>
+                
+                                        <p>Professor: Jane Doe</p>
+                
+                                        <butoon><a class="btn-modal" href="curso.html">Link para aula</a></butoon>                    
+                                    
+                                    </div>
+                                    
+                                </div>            
+                        
+                            </div>
+                    
+                        </section> <!--Fim do Modal -->                     
+                    
+                    </div>
 
-                <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                <button class=""><a href="#">começar agora</a></button>
+                </div>
+
+                <div class="cards-cursos">
+
+                    <img src="imagens/ilustra-investimento.png" alt="ilustra-investimento">
+
+                    <div class="teste">
+
+                        <h3 class="subtitulo-cursos">Poupando e Rendendo</h3>
+
+                        <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+                        <button class="" id="myBtn"><a href="#">começar agora</a></button>                
+
+                        <!-- O Modal -->
+                        <section id="myModal" class="modal">
+                
+                            <!-- Modal -->
+                            <div class="modal-content">
+                
+                                <span class="close">&times;</span>
+                                
+                                <div id="div-modal">                    
+                                    
+                                    <div class="img-wrap">
+                
+                                        <img src="imagens/ilustra-poupando.png"/>
+                
+                                    </div>
+                
+                                    <div class="texto">  
+                
+                                        <h2 class="subtitulo-modal">Investimento para iniciantes</h2>   
+                
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                
+                                        <p>1 - Aula introdutória</p>
+                
+                                        <p>2 - História sobre inventimento</p>
+                
+                                        <p>3 - Por onde começar</p>
+                
+                                        <p>Professor: Jane Doe</p>
+                
+                                        <butoon><a class="btn-modal" href="curso.html">Link para aula</a></butoon>                    
+                                    
+                                    </div>
+                                    
+                                </div>            
+                        
+                            </div>
+                    
+                        </section> <!--Fim do Modal -->
+
+                    </div>
+                        
+
+                </div>
+
+                <div class="cards-cursos">
+
+                    <img src="imagens/ilustra-independencia.png" alt="ilustra-independencia">
+                    
+                    <div class="teste">
+
+                        <h3 class="subtitulo-cursos">Independência Financeira</h3>
+
+                        <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+                        <button class="" id="myBtn"><a href="#">começar agora</a></button>
+
+                        <!-- O Modal -->
+                        <section id="myModal" class="modal">
+                
+                            <!-- Modal -->
+                            <div class="modal-content">
+                
+                                <span class="close">&times;</span>
+                                
+                                <div id="div-modal">                    
+                                    
+                                    <div class="img-wrap">
+                
+                                        <img src="imagens/ilustra-poupando.png"/>
+                
+                                    </div>
+                
+                                    <div class="texto">  
+                
+                                        <h2 class="subtitulo-modal">Investimento para iniciantes</h2>   
+                
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                
+                                        <p>1 - Aula introdutória</p>
+                
+                                        <p>2 - História sobre inventimento</p>
+                
+                                        <p>3 - Por onde começar</p>
+                
+                                        <p>Professor: Jane Doe</p>
+                
+                                        <butoon><a class="btn-modal" href="curso.html">Link para aula</a></butoon>                    
+                                    
+                                    </div>
+                                    
+                                </div>            
+                        
+                            </div>
+                    
+                        </section> <!--Fim do Modal -->
+                    
+                    </div>
+
+                </div>
+
             </div>
 
-            </div>
-
-            <div class="cards-cursos">
-
-                <img src="imagens/ilustra-poupando.png" alt="ilustra-poupando">
-                <div class="teste">
-                <h3 class="subtitulo-cursos">Poupando e Rendendo</h3>
-
-                <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                <button class=""><a href="#">começar agora</a></button></div>
-
-            </div>
-
-            <div class="cards-cursos">
-
-                <img src="imagens/ilustra-independencia.png" alt="ilustra-independencia">
-                <div class="teste">
-
-                <h3 class="subtitulo-cursos">Independência Financeira</h3>
-
-                <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                <button class=""><a href="#">começar agora</a></button></div>
-
-            </div>
-        </div>
-
-    </section>
- 
+        </section> 
 
     </main>
 
@@ -113,11 +240,11 @@
             
             <ul class="navbar">
                 
-                <li class="navbar-itens"><a class="itens" href="#">Cursos</a></li>
+                <li class="navbar-itens"><a class="itens" href="cursos.html">Cursos</a></li>
 
-                <li class="navbar-itens"><a class="itens" href="#">Blog</a></li>
+                <li class="navbar-itens"><a class="itens" href="blog.html">Blog</a></li>
 
-                <li class="navbar-itens"><a class="itens" href="#">Contato</a></li>
+                <li class="navbar-itens"><a class="itens" href="contato.html">Contato</a></li>
 
             </ul>
 
