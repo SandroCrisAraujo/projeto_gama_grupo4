@@ -1,57 +1,65 @@
-Título do Projeto
-Breve descrição do projeto, destacando seus principais recursos e funcionalidades.
+# Projeto Integrador 
 
-Pré-requisitos
-HTML5
-CSS3
-JavaScript
-Git
-GitHub
-Instalação
+<h1 align="center">Website Din Din - Educação Financeira</h1>
+<br>
+Projeto Din Din Educação Financeira<a href=images/dindin-logo-white.png
+
+<br>
+<p align="center"> Para visualizar o projeto no seu navegador:
+ <a href="https://dindin-educacaofinanceira.netlify.app//"> Clique Aqui </a> e o figma: 
+ <a href="https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1/"> Clique Aqui </a></p>
+
+* 
+## Descrição do Projeto
+<p align="justify">
+Este projeto tem por finalidade, colocar em prática os aprendizados obtidos nas aulas sincronas e assincronas. 
+Programa IBRF e Gama Academy, que tem como finalidade fortalecer a especialização por meio da educação e promover desenvolvimento social.
+Além da aprendizagem tecnológica, nós pudemos colocar em prática ou desenvolver algunas soft skill´s necessárias para trabalhos em  grupo:
+Responsabilidade, troca de conhecimento, empatia, saber lidar com as diferenças e diferentes formas de aprendizado.
+O desenvolvimento deu-se com a distribuição de atividades para o desenvolvimento do projeto.</p>
+
+ ✅💻 Primeiro projeto desenvolvido no Gama Academy. 
+ 🟢🟣 Atividade realizada com o intuito de consolidar os conhecimentos adquiridos em:
+	   HTML, CSS, javascript, Git e GitHub.
+
+- 📲 Responsividade 
+- 🗣️Acessibilidade 
+- 🕵 Otimização SEO
+
+!image[github.com/images/dindin-logo-white.png]
+
+* 🔗 Link do Projeto:
+> https://dindin-educacaofinanceira.netlify.app/
+* 🔗 Link do Modelo do Projeto no Figma:
+> https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1
+	
+
+
+## Agradecimentos
+
+Aos mentores e professores das aulas sincronas e assincronas da Gama Academy e colegas do programa/curso
+
+
+
+### Instalação
 Clone este repositório em sua máquina local usando o comando:
 
 shell
 Copy code
+
 git clone https://github.com/SandroCrisAraujo/projeto_gama_grupo4.git
+
 Abra o arquivo index.html no seu navegador web.
 
-Uso
-Descreva aqui como utilizar o projeto e como interagir com as diferentes partes do mesmo.
+## Contato
+Cristian
 
-Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga as etapas abaixo:
+Fernando
+>https://www.linkedin.com/in/pesquisador-quimico/
+Gilmara
 
-Faça um fork deste repositório.
+Sandro
+>https://www.linkedin.com/in/sandrocris-araujo/
 
-Crie uma nova branch com sua feature ou correção de bug:
-
-shell
-Copy code
-git checkout -b minha-feature
-Faça as alterações necessárias e adicione os arquivos modificados:
-
-shell
-Copy code
-git add .
-Faça o commit das suas alterações:
-
-shell
-Copy code
-git commit -m "Descrição das alterações"
-Envie suas alterações para o seu fork:
-
-shell
-Copy code
-git push origin minha-feature
-Abra um Pull Request para este repositório original.
-
-Licença
-Indique aqui a licença do projeto, por exemplo:
-
-Este projeto está licenciado sob a Licença MIT.
-
-Contato
-Inclua aqui informações para contato, como email ou links para perfis em redes sociais.
-
-Agradecimentos
-Agradeça às pessoas ou recursos que foram úteis para o desenvolvimento do projeto.
+## Agradecimentos
+Agradecemos aos professores, a Gama e a IBRF pela contribuição para o desenvolvimento do projeto.
