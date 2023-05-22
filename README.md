@@ -9,7 +9,7 @@ Projeto Din Din Educação Financeira<a href=images/dindin-logo-white.png
  <a href="https://dindin-educacaofinanceira.netlify.app//"> Clique Aqui </a> e o figma: 
  <a href="https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1/"> Clique Aqui </a></p>
 
-* 
+
 ## Descrição do Projeto
 <p align="justify">
 Este projeto tem por finalidade, colocar em prática os aprendizados obtidos nas aulas sincronas e assincronas. 
@@ -33,13 +33,6 @@ O desenvolvimento deu-se com a distribuição de atividades para o desenvolvimen
 * 🔗 Link do Modelo do Projeto no Figma:
 > https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1
 	
-
-
-## Agradecimentos
-
-Aos mentores e professores das aulas sincronas e assincronas da Gama Academy e colegas do programa/curso
-
-
 
 ### Instalação
 Clone este repositório em sua máquina local usando o comando:
