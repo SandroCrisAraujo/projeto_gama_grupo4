@@ -10,7 +10,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 
-
 .main{
     display: flex;
     flex-direction: column;   
@@ -25,15 +24,15 @@
 
 /*titulo*/
 .legenda .titulo{
-margin: 82px 0 0 82px;    
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 69px;
-/* identical to box height */
+    margin: 82px 0 0 82px;    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    /* identical to box height */
 
-color:  #FF4081
+    color:  #FF4081
 }
 
 .legenda .paragrafo{
@@ -48,14 +47,10 @@ line-height: 23px;
 color: #555555;
 }
 
-
-
-
 /* Estlilização da seção dos cursos */
 
 .cursos{
-    background: #F7F7F7;
-    
+    background: #F7F7F7;    
 }
 
 .cursos-container img{
@@ -79,15 +74,13 @@ color: #555555;
     flex-direction: line;
     align-items: center;
     gap: 30px;  
-    padding: 60px 0;  
-   
+    padding: 60px 0;     
 }
 
 .cards-cursos:nth-child(2) {
     border-top: 4px solid #C4C4C4;
     border-bottom: 4px solid #C4C4C4;
-  }
-
+}
 
 .subtitulo-cursos{
     font-family: 'Ubuntu', sans-serif;
@@ -97,25 +90,21 @@ color: #555555;
     line-height: 29px;
 
     color: #FF4081;
-    
 }
 
-.cards-cursos .paragrafo{
-   
- width: 724px;
-height: 105px;
-
-    
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
+.cards-cursos .paragrafo{   
+    width: 724px;
+    height: 105px;
+        
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
 }
 
-.cards-cursos button{
-    
+.cards-cursos button{    
     width: 233px;
     height: 51px;
     text-align: center;
@@ -124,7 +113,7 @@ color: #000000;
     border: none;
 }
 
-.cards-cursos a{
+.cards-cursos a {
     width: 216px;
     height: 20.27px;
     font-family: 'Ubuntu', sans-serif;
@@ -147,10 +136,5 @@ color: #000000;
     flex-direction: column;
     width: 400px;
     gap: 15px;
-    margin: 0 auto;
-   
+    margin: 0 auto;   
 }
-input, textarea{
-    padding: 10px;
-}
-

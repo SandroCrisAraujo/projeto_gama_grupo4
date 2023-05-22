@@ -6,22 +6,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-top: 80px ;
+    padding: 80px;
 }    
 
-.banner{
-
-
+.banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    gap: 150px; 
-    
+    gap: 150px;     
 }
 
-.banner-itens{
+.banner-itens {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -29,15 +26,11 @@
     align-items: center;
 }
 
-
-.banner-img{
-    
-   display: flex;
-
-
+.banner-img {
+    display: flex;
 }
 
-.titulo{
+.titulo {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -47,61 +40,47 @@
     color: #FF4081;
 }
 
-.banner-itens .paragrafo{
-    
-width: 461px;
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 23px;
-display: flex;
-align-items: center;
-color: #555555;}
-
-
-
+.banner-itens .paragrafo {    
+    width: 461px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
 
     /* Estlilização da seção dos cursos */
 
-.cursos{
+.cursos {
     background: #F7F7F7;
-   
+    padding-bottom: 100px ;
 }
 
-.cursos-container img{
-
+.cursos-container img {
     height: 261px;
     width: 462px;
 }
 
-.cursos-container{
-    
-
-    margin: 213px;
+.cursos-container {
     display: flex;
     flex-direction: row;
     justify-content: center;   
     flex-wrap: wrap;
     gap: 100px;  
     align-items: center; 
-    padding-top: 80px;
-    
-
-    
-    
+    padding-top: 80px;       
 }
 
-.cards-cursos{
+.cards-cursos {
     display: flex;
     flex-direction: line;
     align-items: center;
-    gap: 100px;
-    
-    
+    gap: 100px;    
 }
 
-.subtitulo-cursos{
-    
+.subtitulo-cursos {    
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -111,33 +90,30 @@ color: #555555;}
     line-height: 40px;
 }
 
-.cards-cursos .paragrafo{
- 
-    width: 501px;
-    
+.cards-cursos .paragrafo { 
+    width: 501px;    
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
     display: flex;
-    align-items: center;
-    
-font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-display: flex;
-align-items: center;
+    align-items: center;    
 
-color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
 }
 
-.card-texto{
-gap: 25px;
-display: flex;
-flex-direction: column;
-
+.card-texto {
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-cursos:nth-child(2) {
     border-top: 4px solid #C4C4C4;
     border-bottom: 4px solid #C4C4C4;
     padding: 80px 0;
-  }
+}
