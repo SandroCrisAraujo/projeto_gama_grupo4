@@ -45,11 +45,15 @@ git clone https://github.com/SandroCrisAraujo/projeto_gama_grupo4.git
 Abra o arquivo index.html no seu navegador web.
 
 ## Contato
+
 Cristian
+>https://www.linkedin.com/in/cristian-fiorin-428395247/
 
 Fernando
 >https://www.linkedin.com/in/pesquisador-quimico/
+
 Gilmara
+>https://www.linkedin.com/in/gilmara-cristiane-gon%C3%A7alves-borges-06b695192/
 
 Sandro
 >https://www.linkedin.com/in/sandrocris-araujo/
